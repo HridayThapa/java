@@ -12,15 +12,10 @@ package com.wipro.java.oops;
  * POJO Plain Old Java Object
  */
 public class Employee {
-	@Override
-	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", position=" + position + ", Salary=" + Salary + "]";
-	}
-
+	
 	private int id;//This is employee ID
 	private String name;//This is employee name
-	private String position;//This is the position of the employee
-	private int Salary;//This is the salary of the employee
+	private float Salary;//This is the salary of the employee
 	
 	//Getter for ID
 	public int getId() {
@@ -40,37 +35,18 @@ public class Employee {
 		this.name = name;	
 	}
 
-
-	public String getPosition() {
-		return position;
-	}
-
-	public void setPosition(String position) {
-		this.position = position;
-	}
-	
-	public int getSalary() {
+	public float getSalary() {
 		return Salary;
 	}
 
-	public void setSalary(int salary) {
+	public void setSalary(float salary) {
 		Salary = salary;
 	}
-
-
-	/**
-	 * 
-	 */
-	public Employee() {
-		// TODO Auto-generated constructor stub
+	
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", Salary=" + Salary + "]";
 	}
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-	}
 
 }
