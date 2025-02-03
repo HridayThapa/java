@@ -11,6 +11,8 @@ public class Nissan extends Car {
 	/**
 	 * @param args
 	 */
+	
+	//Defining the abstract method
 	@Override
 	public void types() {
 		// TODO Auto-generated method stub
@@ -25,7 +27,7 @@ public class Nissan extends Car {
 		c1.setTopSpeed(300f);
 		c1.setColor("Blue");
 		c1.display();
-		c1.types();
+		c1.types();//calling the abstract method
 		
 		System.out.println("Mileage "+ c1.getMileage());
 		System.out.println("Model "+ c1.getModel());

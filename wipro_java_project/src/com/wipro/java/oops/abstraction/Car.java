@@ -13,7 +13,7 @@ public abstract class Car{
 	private float topSpeed;
 	private String color;
 	
-	public abstract void types();
+	public abstract void types();//abstract method
 
 	/**
 	 * @return the mileage

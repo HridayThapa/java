@@ -11,9 +11,11 @@ public class Ferrari extends Car {
 	/**
 	 * @param args
 	 */
+	
+	//Polymorphism method
 	@Override
 	public void display() {
-        System.out.println("This is a Ferrari:");
+        System.out.println("This is a Ferrari:");//function is changed
 	}
 	
 	public static void main(String[] args) {
@@ -23,7 +25,7 @@ public class Ferrari extends Car {
 		c1.setModel("SF90");
 		c1.setTopSpeed(340f);
 		c1.setColor("Black");
-		c1.display();
+		c1.display();//calling the method
 		
 		System.out.println("Mileage "+ c1.getMileage());
 		System.out.println("Model "+ c1.getModel());

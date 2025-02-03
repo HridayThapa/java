@@ -11,9 +11,11 @@ public class Bmw extends Car {
 	/**
 	 * @param args
 	 */
+	
+	//Polymorphism method
 	@Override
 	public void display() {
-        System.out.println("This is a BMW:");
+        System.out.println("This is a BMW:");//function is changed
 	}
 	
 	public static void main(String[] args) {
@@ -23,7 +25,7 @@ public class Bmw extends Car {
 		c1.setModel("M4");
 		c1.setTopSpeed(250f);
 		c1.setColor("White");
-		c1.display();
+		c1.display();// calling the method
 		
 		
 		System.out.println("Mileage "+ c1.getMileage());

@@ -13,6 +13,9 @@ public class Car{
 	private float topSpeed;
 	private String color;
 	
+	public void display() {
+		System.out.println("Car details: ");//Method to be overwritten for polymorphism
+	}
 	/**
 	 * @return the mileage
 	 */
@@ -69,9 +72,6 @@ public class Car{
 		this.color = color;
 	}
 	
-	public void display() {
-		System.out.println("Car details: ");
-	}
 	@Override
 	public String toString() {
 		return "Car [mileage=" + mileage + ", model=" + model + ", topSpeed=" + topSpeed + ", color=" + color + "]";
