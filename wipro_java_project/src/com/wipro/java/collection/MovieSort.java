@@ -3,12 +3,7 @@ package com.wipro.java.collection;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class MovieSort extends Movie {
-
-	public MovieSort(String n, double r, int y) {
-		super(n, r, y);
-		// TODO Auto-generated constructor stub
-	}
+public class MovieSort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
